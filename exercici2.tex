@@ -1,0 +1,24 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[catalan]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\begin{document}
+\section{Complexos}
+Anem a resoldre:
+\begin{equation*}
+z_1^n +z_2^n \in \mathbb{R}
+\end{equation*}
+Com bé sabem, si $z_1$ i $z_2$ són solucions de $ x^2 +ax +b$, llavors un es el conjugat de l'altre.\\\\
+Si passsam aquests $z_1$ i el seu conjugat a forma exponencial, ens queden $z_1= |z|e^{\Theta i} i z_2=|z|e^{-\Theta i}$
+Ara elevem ambdos membres.\\\\
+$z_1^n=|z|e^{n\Theta i}$ feim mateix amb $z_2$
+Empleant la formula d'Euler i aplicant $sin-\Theta = - sin\Theta$ llavors ens queden:\\
+$z_1^n +z_2^n=|z|^n(cosn\Theta +isinn\Theta)+|z|(cosn\Theta -isinn\Theta)$\\\\
+Per tant, quedarà que lka suma d'aquests dos és $|z|^n2cosn\Theta$ el qual sempre pertany a $\mathbb{R}$\\\\
+Anem a resoldre $x^2-2x+2=0$\\\\
+Fent calculs obtenim com a solució $x=1+i$ i el seu conjugat.\\\\ Aplicant el que hem trobat, ens queda que $z_1^n +z_2^n= \sqrt{2}^n2cos(n\pi/4)$
+\end{document}
